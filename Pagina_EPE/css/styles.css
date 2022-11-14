@@ -1,0 +1,126 @@
+#logo{
+    width: 150px;
+    height: 150px;
+ 
+}
+/*gerais*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.row{
+    margin: 0;
+    align-content: stretch;
+}
+.container{
+    padding: 50px 0;
+}
+p li{
+    color: grey;
+    font-size: 14px;
+}
+/*barra de navegacao*/
+header, .navbar{
+    background-color: #000;
+    color: rgb(205, 193, 37);
+    font-size: 26px;
+}
+.navbar-nav{
+    font-size: 20px;
+    color: rgb(205, 193, 37);
+    
+}
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-brand{
+    padding: 0;
+    color:#FFFF;
+}
+
+.navbar-brand:hover{
+    color:rgb(84, 4, 4);
+}
+#navbar-links a{
+    color: rgb(218, 225, 23);
+}
+.navbar-expanded-lg .navbar-nav .nav-link{
+    padding: 1rem .6rem;
+}
+.container-fluid{
+    padding: 0%;
+}
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+height: 90vh;
+}
+#mainSlider .carousel-caption{
+    top: 30%; 
+}
+#mainSlider .carousel-caption h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#mainSlider .carousel-caption p{
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #ffff;
+}
+.main-btn{
+    background-color:#65daf9;
+    color: #fff;
+    text-transform: uppercase;
+    width: 150px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+.main-btn:hover{
+    text-decoration: none;
+    color:#fff;
+    background-color:rgb(6, 53, 61) ;
+    border: color #65daf9;
+}
+.carousel-indicator .active{
+    background-color:#65daf9;
+}
+#services-area{
+    color:#FFF;
+    font-size: 20px;
+}
+#services-area h3{
+    background-color: rgb(161, 41, 145);
+    color: #FFF;
+    text-align: center;
+    padding: 16px;
+   
+}
+.service-box{
+    text-align: center;
+}
+#marcas{
+    text-align: center;
+    background-color: rgb(238, 139, 245);
+}
+#img-marcas{
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
+    }
+/*Pagina Contato*/
+#container_contato{
+    margin-top: 200px;
+
+}
+#contato{
+   margin-left: 10px;
+}
+.border{
+    background-color: #65daf9;
+    border-color: #65daf9;
+    height: 50px;
+    padding-top: 10px;
+}
